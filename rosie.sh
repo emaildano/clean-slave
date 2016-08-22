@@ -30,9 +30,14 @@ brew cask install ${fonts[@]}
 # Git Config
 # ------------
 #
+
 # Copy Git Profile
 echo "setting up bash_profile..."
 cp -i .gitconfig ~/.gitconfig
+
+# Copy Git Ignore Global
+echo "setting up .gitignore_global..."
+cp -i .gitignore_global ~/.gitignore_global
 
 
 # Bash Profile
