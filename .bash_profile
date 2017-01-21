@@ -44,3 +44,4 @@ alias reload='source ~/.bash_profile'
 ### NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+source /usr/local/opt/nvm/nvm.sh

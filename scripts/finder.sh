@@ -15,8 +15,5 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 # Show Removable Media
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
-# Set Finder to Column View
-defaults write com.apple.Finder FXPreferredViewStyle Nlsv
-
 # Reload Finder
 killall -HUP Finder
