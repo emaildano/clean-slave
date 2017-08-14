@@ -14,6 +14,7 @@ brew update
 packages=(
   nvm
   ffmpeg
+  homebrew/php/wp-cli
 )
 
 echo "installing packages..."
@@ -35,6 +36,7 @@ brew tap caskroom/versions
 # Apps
 apps=(
   google-chrome
+  atom
   firefox
   mamp
   transmit

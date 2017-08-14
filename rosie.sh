@@ -1,8 +1,8 @@
 #!/bin/sh
 
 sh ./scripts/init.sh
-sh ./scripts/finder.sh
 sh ./scripts/diskutility.sh
+sh ./scripts/finder.sh
 sh ./scripts/brew.sh
 sh ./scripts/vagrant.sh
 sh ./scripts/aws.sh
@@ -20,7 +20,6 @@ fonts=(
   font-droid-sans-mono
   font-dejavu-sans
   font-montserrat
-  font-merriweather
 )
 
 # install fonts
@@ -65,6 +64,7 @@ nvm install v5.0 && nvm alias default v5.0
 # Install Gulp and Bower
 npm_modules=(
   gulp
+  gulp-cli
   bower
   browser-sync
   grunt-cli
