@@ -44,7 +44,7 @@ apps=(
   twitter
   slack
   dropbox
-  google-drive
+  google-backup-and-sync
   appcleaner
   transmission
   1password
@@ -52,6 +52,10 @@ apps=(
   docker
   vagrant
   sequel-pro
+  vlc
+  adobe-illustrator-cc
+  adobe-indesign-cc
+  adobe-photoshop-cc
 )
 
 # Install apps to /Applications

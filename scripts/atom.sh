@@ -11,6 +11,7 @@ packages=(
   linter
   linter-scss-lint
   oceanic-reef-syntax
+  react
 )
 
 echo "installing apm packages..."
