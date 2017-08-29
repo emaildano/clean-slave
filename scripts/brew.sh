@@ -15,6 +15,7 @@ packages=(
   nvm
   ffmpeg
   homebrew/php/wp-cli
+  gnupg
 )
 
 echo "installing packages..."
