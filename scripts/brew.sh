@@ -15,6 +15,7 @@ packages=(
   nvm
   ffmpeg
   homebrew/php/wp-cli
+  yarn --without-node
   gnupg
 )
 
@@ -42,7 +43,6 @@ apps=(
   mamp
   transmit
   sketchup
-  twitter
   slack
   dropbox
   google-backup-and-sync
@@ -54,9 +54,6 @@ apps=(
   vagrant
   sequel-pro
   vlc
-  adobe-illustrator-cc
-  adobe-indesign-cc
-  adobe-photoshop-cc
 )
 
 # Install apps to /Applications

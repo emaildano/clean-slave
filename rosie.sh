@@ -61,20 +61,6 @@ source ~/.bash_profile
 echo "installing node.js..."
 nvm install v5.0 && nvm alias default v5.0
 
-# Install Gulp and Bower
-npm_modules=(
-  gulp
-  gulp-cli
-  bower
-  browser-sync
-  grunt-cli
-)
-
-# install fonts
-echo "installing global npm modules..."
-npm install -g ${npm_modules[@]}
-
-
 # Composer
 # --------
 echo "installing composer..."
