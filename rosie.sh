@@ -51,17 +51,3 @@ cp -i .bash_profile ~/.bash_profile
 
 # Reload .bash_profile
 source ~/.bash_profile
-
-
-# Node.js and NPM
-# ---------------
-#
-# Install Node v5.0, set it to default
-echo "installing node.js..."
-nvm install v5.0 && nvm alias default v5.0
-
-# Composer
-# --------
-echo "installing composer..."
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer

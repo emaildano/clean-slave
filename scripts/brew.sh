@@ -15,7 +15,8 @@ packages=(
   nvm
   ffmpeg
   wp-cli
-  yarn --without-node
+  yarn
+  composer
 )
 
 echo "installing packages..."
