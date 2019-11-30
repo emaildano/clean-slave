@@ -7,7 +7,6 @@ sh ./scripts/vagrant.sh
 sh ./scripts/aws.sh
 sh ./scripts/vscode.sh
 
-
 # Install Fonts
 # -------------
 brew tap caskroom/fonts
@@ -37,7 +36,6 @@ cp -i .gitconfig ~/.gitconfig
 echo "setting up .gitignore_global..."
 cp -i .gitignore_global ~/.gitignore_global
 
-
 # Bash Profile
 # ------------
 #
@@ -47,7 +45,6 @@ cp -i .bash_profile ~/.bash_profile
 
 # Setup for NVM alias
 [[ -d ~/.nvm ]] || mkdir ~/.nvm
-
 
 # Reload .bash_profile
 source ~/.bash_profile
