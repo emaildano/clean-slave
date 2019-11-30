@@ -14,49 +14,46 @@ brew update
 packages=(
   nvm
   ffmpeg
-  homebrew/php/wp-cli
+  wp-cli
   yarn --without-node
-  gnupg
 )
 
 echo "installing packages..."
 brew install ${packages[@]}
-
 
 # Cleanup after yourself
 brew cleanup
 
 # Install Applications
 # --------------------
-#
-# Install Caskroom
-brew install caskroom/cask/brew-cask
-
-# Get newer versions of things
-brew tap caskroom/versions
 
 # Apps
 apps=(
-  google-chrome
-  atom
+  1password
+  amazon-music
+  appcleaner
+  docker
+  dropbox
+  dropbox
   firefox
+  google-backup-and-sync
+  google-chrome
+  hyper
+  malwarebytes
   mamp
-  transmit
+  sequel-pro
+  sketch
   sketchup
   slack
-  dropbox
-  google-backup-and-sync
-  appcleaner
   transmission
-  1password
-  virtualbox
-  docker
+  transmit
   vagrant
-  sequel-pro
+  virtualbox
   vlc
+  zoomus
 )
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}

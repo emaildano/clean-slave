@@ -1,12 +1,11 @@
 #!/bin/sh
 
 sh ./scripts/init.sh
-sh ./scripts/diskutility.sh
 sh ./scripts/finder.sh
 sh ./scripts/brew.sh
 sh ./scripts/vagrant.sh
 sh ./scripts/aws.sh
-sh ./scripts/atom.sh
+sh ./scripts/vscode.sh
 
 
 # Install Fonts
