@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Install System Fonts
 # --------
 

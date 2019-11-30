@@ -1,12 +1,12 @@
+#!/bin/sh
+
 # Install VS Code Extensions
 # --------------------
-#
 
 # Extensions
 extensions=(
   DotJoshJohnson.xml
-  HookyQR.beautify
-  Orta.vscode-jest
+  HookyQR.beautifysh
   RolandGreim.sharecode
   Sophisticode.php-formatter
   alefragnani.project-manager

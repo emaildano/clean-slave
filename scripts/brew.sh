@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Check for Homebrew,
 # Install if we don't have it
 if test ! $(which brew); then
@@ -12,12 +14,13 @@ brew update
 # ---------------------
 
 packages=(
-  nvm
+  awscli
+  composer
   ffmpeg
+  nvm
+  stormssh
   wp-cli
   yarn
-  composer
-  stormssh
 )
 
 echo "installing packages..."
@@ -49,7 +52,6 @@ apps=(
   slack
   transmission
   transmit
-  vagrant
   virtualbox
   vlc
   zoomus
