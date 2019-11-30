@@ -1,12 +1,20 @@
 #!/bin/sh
 
-sh ./scripts/init.sh
-sh ./scripts/brew.sh
-sh ./scripts/finder.sh
-sh ./scripts/fonts.sh
-sh ./scripts/vagrant.sh
-sh ./scripts/aws.sh
-sh ./scripts/vscode.sh
+sh ./art/welcome.sh
+read -p "Johnny-Five: Hello, "$(whoami)". Shall we continue? (yes/no) " prompt
+if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
+then
+  sh ./art/start.sh
+  sh ./scripts/brew.sh
+  sh ./scripts/finder.sh
+  sh ./scripts/fonts.sh
+  sh ./scripts/vagrant.sh
+  sh ./scripts/aws.sh
+  sh ./scripts/vscode.sh
+else
+  sh ./art/goodbye.sh
+  exit 0
+fi
 
 # Git Config
 # ------------
