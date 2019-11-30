@@ -1,28 +1,12 @@
 #!/bin/sh
 
 sh ./scripts/init.sh
-sh ./scripts/finder.sh
 sh ./scripts/brew.sh
+sh ./scripts/finder.sh
+sh ./scripts/fonts.sh
 sh ./scripts/vagrant.sh
 sh ./scripts/aws.sh
 sh ./scripts/vscode.sh
-
-# Install Fonts
-# -------------
-brew tap caskroom/fonts
-
-# Font List
-# Search caskroom using `brew cask search /font-roboto/`
-fonts=(
-  font-inconsolata
-  font-droid-sans-mono
-  font-dejavu-sans
-  font-montserrat
-)
-
-# install fonts
-echo "installing fonts..."
-brew cask install ${fonts[@]}
 
 # Git Config
 # ------------
