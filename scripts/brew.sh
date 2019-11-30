@@ -17,6 +17,7 @@ packages=(
   wp-cli
   yarn
   composer
+  stormssh
 )
 
 echo "installing packages..."
