@@ -44,6 +44,7 @@ apps=(
   google-backup-and-sync
   google-chrome
   hyper
+  kitematic
   malwarebytes
   mamp
   sequel-pro
