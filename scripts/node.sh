@@ -5,4 +5,5 @@
 #
 # Install and use latest stable version of Node
 echo "Installing node.js..."
-nvm install stable && nvm alias default stable
+nvm install --lts
+nvm alias default lts/*

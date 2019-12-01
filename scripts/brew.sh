@@ -18,6 +18,7 @@ packages=(
   composer
   ffmpeg
   nvm
+  python
   stormssh
   wp-cli
   yarn
