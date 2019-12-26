@@ -1,7 +1,5 @@
 # Rosie – The Robot Maid
 
-Forked from [@iamhexcoder](https://github.com/iamhexcoder)
-
 # Installations
 
 ## Git
@@ -67,3 +65,7 @@ Install [Composer](https://getcomposer.org):
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 ```
+
+## Kudos
+
+Forked from [@iamhexcoder](https://github.com/iamhexcoder)
