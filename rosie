@@ -6,6 +6,7 @@ if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]
 then
   sh ./art/start.sh
   sh ./scripts/brew.sh
+  sh ./scripts/terminal.sh
   sh ./scripts/finder.sh
   sh ./scripts/fonts.sh
   sh ./scripts/vscode.sh

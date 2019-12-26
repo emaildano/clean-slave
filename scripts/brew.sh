@@ -17,6 +17,8 @@ packages=(
   awscli
   composer
   ffmpeg
+  go
+  zsh
   nvm
   python
   stormssh
@@ -42,8 +44,10 @@ apps=(
   dropbox
   dropbox
   firefox
+  github
   google-backup-and-sync
   google-chrome
+  homebrew/cask-drivers/focusrite-control
   hyper
   kitematic
   malwarebytes
